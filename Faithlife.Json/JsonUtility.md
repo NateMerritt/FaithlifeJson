@@ -10,8 +10,6 @@ public static class JsonUtility
 
 | name | description |
 | --- | --- |
-| static readonly [JTokenEqualityComparer](JsonUtility/JTokenEqualityComparer.md) | An equality comparer for JToken. |
-| static [Clone&lt;T&gt;](JsonUtility/Clone.md)(…) | Clones the specified Json.NET token. |
 | static [CreateDefaultJsonSerializerSettings](JsonUtility/CreateDefaultJsonSerializerSettings.md)() | Creates default serialization settings. |
 | static [CreateDefaultJsonSerializerSettings](JsonUtility/CreateDefaultJsonSerializerSettings.md)(…) | Creates default serialization settings. (2 methods) |
 | static [FromCompressedJson](JsonUtility/FromCompressedJson.md)(…) | Creates an object from compressed JSON. (2 methods) |
@@ -23,7 +21,6 @@ public static class JsonUtility
 | static [FromJToken](JsonUtility/FromJToken.md)(…) | Creates an object from a JToken. (2 methods) |
 | static [FromJToken&lt;T&gt;](JsonUtility/FromJToken.md)(…) | Creates an object from a JToken. (2 methods) |
 | static [GetJsonFormatting](JsonUtility/GetJsonFormatting.md)(…) | Gets the JSON formatting specified by the settings. |
-| static [GetPersistentHashCode](JsonUtility/GetPersistentHashCode.md)(…) | Gets a persistent hash code for the token. |
 | static [ToCompressedJson](JsonUtility/ToCompressedJson.md)(…) | Converts the object to compressed JSON. (2 methods) |
 | static [ToJson](JsonUtility/ToJson.md)(…) | Converts the object to JSON. (2 methods) |
 | static [ToJsonByteCount](JsonUtility/ToJsonByteCount.md)(…) | Returns the number of bytes used by the JSON of an object. (2 methods) |

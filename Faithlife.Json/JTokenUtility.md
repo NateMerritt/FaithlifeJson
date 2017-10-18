@@ -10,6 +10,7 @@ public static class JTokenUtility
 
 | name | description |
 | --- | --- |
+| static readonly [EqualityComparer](JTokenUtility/EqualityComparer.md) | An equality comparer for JToken. |
 | static [AreEqual](JTokenUtility/AreEqual.md)(…) | Check two JTokens for equality. |
 | static [AsBoolean](JTokenUtility/AsBoolean.md)(…) | Returns a Boolean corresponding to the JToken if possible. |
 | static [AsDecimal](JTokenUtility/AsDecimal.md)(…) | Returns a Decimal corresponding to the JToken if possible. |
@@ -18,6 +19,8 @@ public static class JTokenUtility
 | static [AsInt64](JTokenUtility/AsInt64.md)(…) | Returns an Int64 corresponding to the JToken if possible. |
 | static [AsNumber](JTokenUtility/AsNumber.md)(…) | Returns the token as a JValue if it corresponds to a number. |
 | static [AsString](JTokenUtility/AsString.md)(…) | Returns a string corresponding to the JToken if possible. |
+| static [Clone&lt;T&gt;](JTokenUtility/Clone.md)(…) | Clones the specified Json.NET token. |
+| static [GetPersistentHashCode](JTokenUtility/GetPersistentHashCode.md)(…) | Gets a persistent hash code for the token. |
 | static [IsNull](JTokenUtility/IsNull.md)(…) | Returns true if the JToken is null or represents null. |
 | static [TryGetValue](JTokenUtility/TryGetValue.md)(…) | Returns the specified array item if possible. (2 methods) |
 
