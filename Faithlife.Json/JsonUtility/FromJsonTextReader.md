@@ -34,7 +34,7 @@ The object.
 Creates an object from JSON.
 
 ```csharp
-public static object FromJsonTextReader(TextReader textReader, Type type, JsonInputSettings settings)
+public static object FromJsonTextReader(TextReader textReader, Type type, JsonSettings settings)
 ```
 
 | parameter | description |
@@ -56,7 +56,7 @@ The object.
 
 ## See Also
 
-* class [JsonInputSettings](../JsonInputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 
@@ -97,7 +97,7 @@ The object.
 Creates an object from JSON.
 
 ```csharp
-public static T FromJsonTextReader<T>(TextReader textReader, JsonInputSettings settings)
+public static T FromJsonTextReader<T>(TextReader textReader, JsonSettings settings)
 ```
 
 | parameter | description |
@@ -118,7 +118,7 @@ The object.
 
 ## See Also
 
-* class [JsonInputSettings](../JsonInputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 

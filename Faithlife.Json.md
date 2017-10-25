@@ -5,8 +5,7 @@
 | public type | description |
 | --- | --- |
 | class [JsonFilter](Faithlife.Json/JsonFilter.md) | Filters data from JSON. |
-| class [JsonInputSettings](Faithlife.Json/JsonInputSettings.md) | Settings for JsonUtility.FromJson. |
-| class [JsonOutputSettings](Faithlife.Json/JsonOutputSettings.md) | Settings for JsonUtility.ToJson. |
+| class [JsonSettings](Faithlife.Json/JsonSettings.md) | Settings for reading/writing JSON via [`JsonUtility`](Faithlife.Json/JsonUtility.md). |
 | static class [JsonUtility](Faithlife.Json/JsonUtility.md) | Helper methods for working with Json.NET. |
 | static class [JTokenUtility](Faithlife.Json/JTokenUtility.md) | Utility methods for JToken. |
 

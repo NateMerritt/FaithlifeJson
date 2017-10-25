@@ -23,7 +23,7 @@ public static void ToJsonTextWriter(object value, TextWriter textWriter)
 Converts the object to a JSON text writer.
 
 ```csharp
-public static void ToJsonTextWriter(object value, JsonOutputSettings settings, TextWriter textWriter)
+public static void ToJsonTextWriter(object value, JsonSettings settings, TextWriter textWriter)
 ```
 
 | parameter | description |
@@ -34,7 +34,7 @@ public static void ToJsonTextWriter(object value, JsonOutputSettings settings, T
 
 ## See Also
 
-* class [JsonOutputSettings](../JsonOutputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 

@@ -1,4 +1,4 @@
-# JsonUtility.CreateDefaultJsonSerializerSettings method (1 of 3)
+# JsonUtility.CreateDefaultJsonSerializerSettings method (1 of 2)
 
 Creates default serialization settings.
 
@@ -17,32 +17,12 @@ The serialization settings used by ToJson and FromJson.
 
 ---
 
-# JsonUtility.CreateDefaultJsonSerializerSettings method (2 of 3)
+# JsonUtility.CreateDefaultJsonSerializerSettings method (2 of 2)
 
 Creates default serialization settings.
 
 ```csharp
-public static JsonSerializerSettings CreateDefaultJsonSerializerSettings(JsonInputSettings inputSettings)
-```
-
-## Return Value
-
-The serialization settings used by FromJson.
-
-## See Also
-
-* class [JsonInputSettings](../JsonInputSettings.md)
-* class [JsonUtility](../JsonUtility.md)
-* namespace [Faithlife.Json](../../Faithlife.Json.md)
-
----
-
-# JsonUtility.CreateDefaultJsonSerializerSettings method (3 of 3)
-
-Creates default serialization settings.
-
-```csharp
-public static JsonSerializerSettings CreateDefaultJsonSerializerSettings(JsonOutputSettings outputSettings)
+public static JsonSerializerSettings CreateDefaultJsonSerializerSettings(JsonSettings settings)
 ```
 
 ## Return Value
@@ -51,7 +31,7 @@ The serialization settings used by ToJson.
 
 ## See Also
 
-* class [JsonOutputSettings](../JsonOutputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 

@@ -27,7 +27,7 @@ The object.
 Creates an object from a JToken.
 
 ```csharp
-public static object FromJToken(JToken json, Type type, JsonInputSettings settings)
+public static object FromJToken(JToken json, Type type, JsonSettings settings)
 ```
 
 | parameter | description |
@@ -42,7 +42,7 @@ The object.
 
 ## See Also
 
-* class [JsonInputSettings](../JsonInputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 
@@ -77,7 +77,7 @@ The object.
 Creates an object from a JToken.
 
 ```csharp
-public static T FromJToken<T>(JToken json, JsonInputSettings settings)
+public static T FromJToken<T>(JToken json, JsonSettings settings)
 ```
 
 | parameter | description |
@@ -92,7 +92,7 @@ The object.
 
 ## See Also
 
-* class [JsonInputSettings](../JsonInputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 

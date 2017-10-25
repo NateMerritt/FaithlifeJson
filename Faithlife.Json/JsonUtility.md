@@ -11,7 +11,7 @@ public static class JsonUtility
 | name | description |
 | --- | --- |
 | static [CreateDefaultJsonSerializerSettings](JsonUtility/CreateDefaultJsonSerializerSettings.md)() | Creates default serialization settings. |
-| static [CreateDefaultJsonSerializerSettings](JsonUtility/CreateDefaultJsonSerializerSettings.md)(…) | Creates default serialization settings. (2 methods) |
+| static [CreateDefaultJsonSerializerSettings](JsonUtility/CreateDefaultJsonSerializerSettings.md)(…) | Creates default serialization settings. |
 | static [FromCompressedJson](JsonUtility/FromCompressedJson.md)(…) | Creates an object from compressed JSON. (2 methods) |
 | static [FromCompressedJson&lt;T&gt;](JsonUtility/FromCompressedJson.md)(…) | Creates an object from compressed JSON. (2 methods) |
 | static [FromJson](JsonUtility/FromJson.md)(…) | Creates an object from JSON. (2 methods) |

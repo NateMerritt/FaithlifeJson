@@ -31,15 +31,14 @@ This method converts the object to JSON, filtering out data as appropriate, and 
 Filters data from the specified object.
 
 ```csharp
-public T FilterObject<T>(T value, JsonOutputSettings outputSettings, JsonInputSettings inputSettings)
+public T FilterObject<T>(T value, JsonSettings settings)
 ```
 
 | parameter | description |
 | --- | --- |
 | T | The type of the object. |
 | value | The object instance. |
-| outputSettings | The settings used when converting the object to JSON. |
-| inputSettings | The settings used when converting the filtered JSON back to an object. |
+| settings | The settings used when reading/writing JSON. |
 
 ## Return Value
 
@@ -51,8 +50,7 @@ This method converts the object to JSON, filtering out data as appropriate, and 
 
 ## See Also
 
-* class [JsonOutputSettings](../JsonOutputSettings.md)
-* class [JsonInputSettings](../JsonInputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonFilter](../JsonFilter.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 

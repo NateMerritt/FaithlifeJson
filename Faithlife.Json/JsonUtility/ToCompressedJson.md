@@ -26,7 +26,7 @@ The compressed JSON (as compressed by StringUtility).
 Converts the object to JSON.
 
 ```csharp
-public static byte[] ToCompressedJson(object value, JsonOutputSettings settings)
+public static byte[] ToCompressedJson(object value, JsonSettings settings)
 ```
 
 | parameter | description |
@@ -40,7 +40,7 @@ The JSON.
 
 ## See Also
 
-* class [JsonOutputSettings](../JsonOutputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 

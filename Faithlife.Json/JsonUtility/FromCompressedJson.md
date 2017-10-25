@@ -34,7 +34,7 @@ The object.
 Creates an object from compressed JSON.
 
 ```csharp
-public static object FromCompressedJson(byte[] json, Type type, JsonInputSettings settings)
+public static object FromCompressedJson(byte[] json, Type type, JsonSettings settings)
 ```
 
 | parameter | description |
@@ -56,7 +56,7 @@ The object.
 
 ## See Also
 
-* class [JsonInputSettings](../JsonInputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 
@@ -98,7 +98,7 @@ The object.
 Creates an object from compressed JSON.
 
 ```csharp
-public static T FromCompressedJson<T>(byte[] json, JsonInputSettings settings)
+public static T FromCompressedJson<T>(byte[] json, JsonSettings settings)
 ```
 
 | parameter | description |
@@ -120,7 +120,7 @@ The object.
 
 ## See Also
 
-* class [JsonInputSettings](../JsonInputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 

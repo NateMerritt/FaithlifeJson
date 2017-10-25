@@ -3,7 +3,7 @@
 Gets the JSON formatting specified by the settings.
 
 ```csharp
-public static Formatting GetJsonFormatting(JsonOutputSettings settings)
+public static Formatting GetJsonFormatting(JsonSettings settings)
 ```
 
 | parameter | description |
@@ -16,7 +16,7 @@ The JSON formatting.
 
 ## See Also
 
-* class [JsonOutputSettings](../JsonOutputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 

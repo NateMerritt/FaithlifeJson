@@ -26,7 +26,7 @@ The JToken.
 Converts the object to a JToken.
 
 ```csharp
-public static JToken ToJToken(object value, JsonOutputSettings settings)
+public static JToken ToJToken(object value, JsonSettings settings)
 ```
 
 | parameter | description |
@@ -40,7 +40,7 @@ The JToken.
 
 ## See Also
 
-* class [JsonOutputSettings](../JsonOutputSettings.md)
+* class [JsonSettings](../JsonSettings.md)
 * class [JsonUtility](../JsonUtility.md)
 * namespace [Faithlife.Json](../../Faithlife.Json.md)
 
