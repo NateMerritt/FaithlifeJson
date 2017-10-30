@@ -10,7 +10,7 @@ public class IsoDateTimeOffsetJsonConverter : JsonConverterBase<DateTimeOffset>
 
 | name | description |
 | --- | --- |
-| [IsoDateTimeOffsetJsonConverter](IsoDateTimeOffsetJsonConverter/IsoDateTimeOffsetJsonConverter.md)() | Initializes a new instance of the [`IsoDateTimeOffsetJsonConverter`](IsoDateTimeOffsetJsonConverter.md) class. |
+| [IsoDateTimeOffsetJsonConverter](IsoDateTimeOffsetJsonConverter/IsoDateTimeOffsetJsonConverter.md)() | The default constructor. |
 
 ## Protected Members
 
